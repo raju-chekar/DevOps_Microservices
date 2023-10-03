@@ -38,9 +38,9 @@ source .devops/bin/activate
 
 ### Running `app.py`
 
-1. Standalone:  `python app.py`
-2. Run in Docker:  `./run_docker.sh`
-3. Run in Kubernetes:  `./run_kubernetes.sh`
+1. Standalone:  `python app.py` execute the python app locally
+2. Run in Docker:  `./run_docker.sh` Build docker image and start the application from docker image
+3. Run in Kubernetes:  `./run_kubernetes.sh` invoek docker image to kubernetes pod and start the application
 
 ### Kubernetes Steps
 
@@ -48,3 +48,4 @@ source .devops/bin/activate
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
